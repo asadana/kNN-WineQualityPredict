@@ -1,0 +1,104 @@
+GNU Octave, version 3.8.1
+Copyright (C) 2014 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-pc-linux-gnu".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+Randomizing dataset..
+Creating training and test data sets..
+Calculating euclidean distances between test data and training data..
+Sorting the distance vector..
+
+1,57
+2,65
+3,61
+4,67
+5,64
+6,68
+7,66
+8,68
+9,66
+10,68
+11,67
+12,69
+13,67
+14,68
+15,68
+16,70
+17,68
+18,70
+19,68
+20,70
+50,70
+100,71
+150,71
+200,71
+250,71
+300,71
+350,71
+400,71
+450,71
+500,71
+550,71
+600,71
+650,71
+700,71
+750,71
+800,71
+850,71
+900,71
+950,71
+1000,71
+1050,71
+1100,71
+1150,71
+1200,71
+1250,71
+1300,71
+1350,71
+1400,71
+1450,71
+1500,71
+1550,71
+1600,71
+1650,71
+1700,71
+1750,71
+1800,71
+1850,71
+1900,71
+1950,71
+2000,71
+2050,71
+2100,71
+2150,71
+2200,71
+2250,71
+2300,71
+2350,71
+2400,71
+2450,71
+2500,71
+2550,71
+2600,71
+2650,71
+2700,71
+2750,71
+2800,71
+2850,71
+2900,71
+2950,71
+3000,71
+3050,71
+Exiting..
+

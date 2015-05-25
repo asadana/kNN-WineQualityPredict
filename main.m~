@@ -1,0 +1,39 @@
+
+dataSet=csvread('winequality-red-noTitles.csv');
+
+[row,col] = size(dataSet);
+
+
+% Sampling without replacement:
+
+sample = 1000; % number of samples
+
+randomSelect = randperm(row); 
+
+trainData = dataSet(randomSelect(1:sample), :);
+
+xTrain = trainData(:,[1:11]);
+yTrain = trainData(:,12);
+
+testData = dataSet(randomSelect(sample+1:row), :);
+
+dist(i,j,k) = euclideanDist(xTrain[i,j]
+
+% euclidean
+%x=[5,4,0.5,0.1];
+%y=[2,2,0.2,0.3];
+
+%disp(sqrt(x.^2 - y.^2));
+
+
+
+
+% Sampling with replacement:
+
+%sample = 1000; % number of samples
+
+%randomSelect = randi(row); 
+
+%trainData = dataSet(randomSelect(1:sample), :);
+
+%testData = dataSet(randomSelect(sample+1:row), :);

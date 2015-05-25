@@ -1,0 +1,46 @@
+% findNeighbors.m
+% 
+% 
+
+function yPredict = findNeighbors(k, yTrain, rowTest, sortPos)
+
+	temp = zeros(k,rowTest);
+	
+	yPredict = zeros(rowTest,1);
+
+	count1 = 0;
+	count0 = 0;
+
+	for var1=1:rowTest
+		for var2=1:k
+			y(var2,var1) = sortPos(var2,var1);
+			temp(var2,var1) = yTrain(y(var2,var1),1);
+			
+			if (temp(var2,var1) == 1)
+				count1++;
+			elseif (temp(var2,var1) == 0)
+				count0++;
+			endif
+		endfor
+		
+		[maxVal, maxPos] = max([count1,count0]);
+
+		disp(maxVal);
+		disp(maxPos);
+		
+	
+		if (maxPos == 1)
+			yPredict(var1,1) = 1;
+		elseif (maxPos == 2)
+			yPredict(var1,1) = 0;
+		endif
+		
+		count1 = 0;
+		count0 = 0;
+	endfor
+
+	% disp(temp);
+	% disp("\nyPredict:")
+	% disp(yPredict);
+
+end
